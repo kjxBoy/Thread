@@ -13,6 +13,7 @@
 		18C560371F3323B600FFB2B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C560351F3323B600FFB2B5 /* Main.storyboard */; };
 		18C560391F3323B600FFB2B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C560381F3323B600FFB2B5 /* Assets.xcassets */; };
 		18C5603C1F3323B600FFB2B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C5603A1F3323B600FFB2B5 /* LaunchScreen.storyboard */; };
+		18C560451F3325E800FFB2B5 /* JXThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C560441F3325E800FFB2B5 /* JXThread.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		18C560381F3323B600FFB2B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18C5603B1F3323B600FFB2B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18C5603D1F3323B600FFB2B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C560431F3325E800FFB2B5 /* JXThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXThread.h; sourceTree = "<group>"; };
+		18C560441F3325E800FFB2B5 /* JXThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXThread.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				18C560301F3323B600FFB2B5 /* AppDelegate.m */,
 				18C560321F3323B600FFB2B5 /* ViewController.h */,
 				18C560331F3323B600FFB2B5 /* ViewController.m */,
+				18C560431F3325E800FFB2B5 /* JXThread.h */,
+				18C560441F3325E800FFB2B5 /* JXThread.m */,
 				18C560351F3323B600FFB2B5 /* Main.storyboard */,
 				18C560381F3323B600FFB2B5 /* Assets.xcassets */,
 				18C5603A1F3323B600FFB2B5 /* LaunchScreen.storyboard */,
@@ -154,6 +159,7 @@
 				18C560341F3323B600FFB2B5 /* ViewController.m in Sources */,
 				18C560311F3323B600FFB2B5 /* AppDelegate.m in Sources */,
 				18C5602E1F3323B600FFB2B5 /* main.m in Sources */,
+				18C560451F3325E800FFB2B5 /* JXThread.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
