@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "JXTool.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,22 @@
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
-    [self group];
+    [self single];
+}
+
+#pragma mark - 单例
+- (void)single
+{
+    JXTool *tool = [[JXTool alloc] init];
+    
+    JXTool *newTool = [JXTool new];
+    
+    JXTool *copyTool = [tool copy];
+    
+    JXTool *mutableTool = [tool mutableCopy];
+    
+    NSLog(@"%@ \n %@ \n %@ \n %@ \n",tool,newTool,copyTool,mutableTool);
+
 }
 
 #pragma mark - 同步、异步函数与各种队列组合
