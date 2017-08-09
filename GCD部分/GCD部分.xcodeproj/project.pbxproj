@@ -13,6 +13,7 @@
 		184D68721F380830004D3475 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184D68701F380830004D3475 /* Main.storyboard */; };
 		184D68741F380830004D3475 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184D68731F380830004D3475 /* Assets.xcassets */; };
 		184D68771F380830004D3475 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184D68751F380830004D3475 /* LaunchScreen.storyboard */; };
+		18F7F7B11F3AD9C300ADCE8B /* JXTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F7F7B01F3AD9C300ADCE8B /* JXTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		184D68731F380830004D3475 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		184D68761F380830004D3475 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		184D68781F380830004D3475 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F7F7AF1F3AD9C300ADCE8B /* JXTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXTool.h; sourceTree = "<group>"; };
+		18F7F7B01F3AD9C300ADCE8B /* JXTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				184D686B1F380830004D3475 /* AppDelegate.m */,
 				184D686D1F380830004D3475 /* ViewController.h */,
 				184D686E1F380830004D3475 /* ViewController.m */,
+				18F7F7AF1F3AD9C300ADCE8B /* JXTool.h */,
+				18F7F7B01F3AD9C300ADCE8B /* JXTool.m */,
 				184D68701F380830004D3475 /* Main.storyboard */,
 				184D68731F380830004D3475 /* Assets.xcassets */,
 				184D68751F380830004D3475 /* LaunchScreen.storyboard */,
@@ -154,6 +159,7 @@
 				184D686F1F380830004D3475 /* ViewController.m in Sources */,
 				184D686C1F380830004D3475 /* AppDelegate.m in Sources */,
 				184D68691F380830004D3475 /* main.m in Sources */,
+				18F7F7B11F3AD9C300ADCE8B /* JXTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +318,7 @@
 				184D687D1F380830004D3475 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
