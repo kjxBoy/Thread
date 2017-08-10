@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18178DEC1F3BFB3000A5D148 /* JXOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 18178DEB1F3BFB3000A5D148 /* JXOperation.m */; };
 		18F7F7C01F3ADBE200ADCE8B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F7F7BF1F3ADBE200ADCE8B /* main.m */; };
 		18F7F7C31F3ADBE200ADCE8B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F7F7C21F3ADBE200ADCE8B /* AppDelegate.m */; };
 		18F7F7C61F3ADBE200ADCE8B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F7F7C51F3ADBE200ADCE8B /* ViewController.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18178DEA1F3BFB3000A5D148 /* JXOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXOperation.h; sourceTree = "<group>"; };
+		18178DEB1F3BFB3000A5D148 /* JXOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXOperation.m; sourceTree = "<group>"; };
 		18F7F7BB1F3ADBE200ADCE8B /* NSOperation部分.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NSOperation部分.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F7F7BF1F3ADBE200ADCE8B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18F7F7C11F3ADBE200ADCE8B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -62,6 +65,8 @@
 				18F7F7C21F3ADBE200ADCE8B /* AppDelegate.m */,
 				18F7F7C41F3ADBE200ADCE8B /* ViewController.h */,
 				18F7F7C51F3ADBE200ADCE8B /* ViewController.m */,
+				18178DEA1F3BFB3000A5D148 /* JXOperation.h */,
+				18178DEB1F3BFB3000A5D148 /* JXOperation.m */,
 				18F7F7C71F3ADBE200ADCE8B /* Main.storyboard */,
 				18F7F7CA1F3ADBE200ADCE8B /* Assets.xcassets */,
 				18F7F7CC1F3ADBE200ADCE8B /* LaunchScreen.storyboard */,
@@ -154,6 +159,7 @@
 				18F7F7C61F3ADBE200ADCE8B /* ViewController.m in Sources */,
 				18F7F7C31F3ADBE200ADCE8B /* AppDelegate.m in Sources */,
 				18F7F7C01F3ADBE200ADCE8B /* main.m in Sources */,
+				18178DEC1F3BFB3000A5D148 /* JXOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +318,7 @@
 				18F7F7D41F3ADBE200ADCE8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
