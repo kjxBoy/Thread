@@ -57,12 +57,10 @@
 - (void)encodeChinese
 {
     NSString *zhStr = @"http://www.康大侠.com";
-    
     //百分号转义
     NSString *enStr = [zhStr stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLQueryAllowedCharacterSet]];
-    
+
     NSLog(@"%@",enStr);
-    
 }
 
 #pragma mark - NSURLSession
@@ -179,7 +177,6 @@
     [task resume];
     
 }
-
 
 - (void)sessionPost{
     NSURL *url = [NSURL URLWithString:@"http://120.25.226.186:32812/login"];
